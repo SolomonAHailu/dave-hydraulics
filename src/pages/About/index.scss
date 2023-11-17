@@ -1,0 +1,75 @@
+@use "../../global/" as *;
+
+.about-container{
+    padding-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .each {
+        padding: 2rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8rem;
+        text-align: center;
+        margin: 20px;
+
+        h2 {
+            position: relative;
+            font-size: $h2-size;
+            text-align: center;
+            color: $text-black; 
+            z-index: 1; 
+        }
+        
+        h2::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 5px; 
+            bottom: 0;
+            left: 0;
+            background: $text-orange; 
+            visibility: hidden;
+            transform: scaleX(0);
+            transition: transform 0.5s ease-in-out, visibility 0.5s ease;
+            z-index: 1; 
+        }
+        
+        h2:hover::after {
+            visibility: visible;
+            transform: scaleX(1);
+        }
+        
+        h2:hover {
+            color: $text-black; 
+            z-index: 2; 
+        }
+        
+        .pic-and-paragraph{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 5rem;
+            p{
+                font-size: $p-size;
+                text-align: justify;
+                color: $text-gray; 
+                line-height: 1.6; 
+            }
+        }
+    }
+    img{
+        width: 25%;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-container .pic-and-paragraph img {
+      display: none;
+    }
+  }

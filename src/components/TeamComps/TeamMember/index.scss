@@ -1,0 +1,61 @@
+@use "../../../global/" as *;
+
+.team-member-container {
+  // background-color: $text-gray;
+  padding: 0.5rem;
+  margin: 0.5rem;
+} 
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4rem;
+  h3 {
+    font-size: $h3-size;
+    color: $text-black;
+  }
+  h6 {
+    font-size: $h6-size;
+    color: $text-gray;
+  }
+  p {
+    font-size: $p-size;
+    color: $text-gray;
+  }
+  p {
+    font-size: $p-size;
+    color: $text-gray;
+  }
+  img {
+    padding: 1rem;
+    width: 140px; 
+    height: 140px; 
+    border-radius: 50%; 
+    transition: ease-in-out 0.5s;
+    filter: drop-shadow(0 0 2px $text-orange);
+    &:hover {
+      opacity: 0.9;
+      border-radius: 0; 
+    }
+  }
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  svg {
+      font-size: $h5-size;
+      color: $text-orange;
+      cursor: pointer;
+      transition: ease-in-out 0.5s;
+  
+      &:hover {
+        color: $text-blue;
+      }
+    }
+}

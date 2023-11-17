@@ -1,0 +1,162 @@
+@use "../../global/" as *;
+
+.courses-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8rem;
+  padding: 15rem 0;
+
+  img {
+    width: 25%;
+    display: none;
+  }
+
+  .video-title-description {
+    padding: 4rem;
+    gap: 3rem;
+    display: flex;
+    flex-direction: row;
+
+    .video {
+      flex: 1;
+      margin-right: 2rem;
+
+      iframe {
+        border: 0;
+        border-radius: 12px;
+        box-shadow: 0 0 10px $text-gray; 
+      }
+    }
+    .title-description {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+
+      .description-icons {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        gap: 1rem; 
+
+        p {
+          display: flex;
+          align-items: center;
+          color: $text-gray; 
+
+          span{
+            svg {
+            font-size: 20px;
+            margin-right: 5px;
+            color: $text-green;
+
+            &:hover {
+              color: $text-green;
+            }
+          }
+        }
+        svg {
+          font-size: 20px;
+          margin-right: 5px;
+        }
+      }
+    }
+
+      h3 {
+        font-size: $h3-size;
+        margin-bottom: 1rem; 
+        color: $text-orange; 
+      }
+
+      p {
+        font-size: $p-size;
+        color: $text-gray; 
+        margin-bottom: 1.5rem; 
+      }
+
+      .socials {       
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        
+        svg {
+          font-size: 2rem;
+          color: #3498c1;
+          cursor: pointer;
+          transition: ease-in-out 0.5s;
+      
+          &:hover {
+            color: $text-orange;
+          }
+        }
+      }
+    }
+  }
+}
+
+ // Media Queries
+ @media screen and (max-width: 1200px) {
+  .courses-container {
+    padding: 10rem 0;
+
+    .video-title-description {
+      flex-direction: column;
+
+      .video {
+        margin-right: 0;
+
+        iframe {
+          margin-bottom: 2rem;
+          max-width: 100%;
+        }
+      }
+
+      .title-description {
+        flex: 1;
+
+        .description-icons {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .courses-container {
+    padding: 8rem 0;
+
+    .video-title-description {
+      .video {
+        iframe {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .courses-container {
+    padding: 6rem 0;
+
+    .video-title-description {
+      .video {
+        iframe {
+          margin-bottom: 0.5rem;
+        }
+      }
+
+      .title-description {
+        h3 {
+          font-size: $h3-size-mobile; 
+        }
+
+        p {
+          font-size: $p-size-mobile; 
+        }
+      }
+    }
+  }
+}
