@@ -143,11 +143,14 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+
+
 ## My Final Words to anyone who sees this 
 
-Absolutely! Let's dive into the motivational zone:
 
-Hey there! 👋 Remember, every step you take toward your goals is a victory. Embrace the journey, celebrate your progress, and keep your eyes on the prize. Challenges may come your way, but they are stepping stones to success. Believe in your abilities, because you have the power to turn your dreams into reality.
+💡
+
+Remember, every step you take toward your goals is a victory. Embrace the journey, celebrate your progress, and keep your eyes on the prize. Challenges may come your way, but they are stepping stones to success. Believe in your abilities, because you have the power to turn your dreams into reality.
 
 You're not just working; you're crafting your future. Every effort you put in today is an investment in the amazing person you're becoming. Challenges are opportunities in disguise, and each one conquered brings you closer to your aspirations.
 
