@@ -152,7 +152,7 @@ You have a unique set of skills, talents, and perspectives that the world needs.
 Take a deep breath, stay focused, and let the passion within you drive your actions. You've got this! 🚀
 
 
-### Connect with Me
+# Connect with Me
 
 Hey there! 👋 Let's stay connected. Feel free to reach out to me on various platforms. Here are my socials:
 
