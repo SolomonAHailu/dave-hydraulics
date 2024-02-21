@@ -5,6 +5,7 @@ import EngPicture from "../../../assets/home-assets/engineer.png";
 import { BsCheckCircle } from "react-icons/bs";
 import { FaAngleRight } from "react-icons/fa";
 import "./index.scss";
+import educationPNG from "../../../assets/education.png";
 
 function FirstHero() {
   const handleContactUs = () => {
@@ -47,8 +48,9 @@ function FirstHero() {
 
             {/* img */}
             <img
-              src={EngPicture}
-              alt="car-img"
+              // src={EngPicture}
+              src={educationPNG}
+              alt="img"
               className="hero-content__car-img"
             />
           </div>

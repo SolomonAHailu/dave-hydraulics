@@ -8,6 +8,12 @@ import Typography from "@mui/material/Typography";
 import accordImg from "../../../assets/accord.png";
 import "./index.scss";
 import HeroBG from "../../../assets/home-assets/hero-bg.png";
+import servicesPNG from "../../../assets/services.png";
+import lecturePNG from "../../../assets/lecture.png";
+import answerPNG from "../../../assets/answer.png";
+import qualityPNG from "../../../assets/quality.png";
+import peopleAccordPNG from "../../../assets/peopleAccord.png";
+import educationPNG from "../../../assets/education.png";
 
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -63,7 +69,8 @@ export default function CustomizedAccordions() {
       <img className="bg-shape" src={HeroBG} alt="bg-shape" />
 
       <div className="image-container">
-        <img src={accordImg} alt="" />
+        {/* <img src={accordImg} alt="" /> */}
+        <img src={peopleAccordPNG} alt="" />
       </div>
       <div className="accordion">
         <Accordion
@@ -71,6 +78,8 @@ export default function CustomizedAccordions() {
           onChange={handleChange("panel1")}
           sx={{
             fontSize: "2rem",
+            backgroundColor: "#ff4d30",
+            borderRadius: "10px",
           }}
         >
           <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
@@ -82,7 +91,15 @@ export default function CustomizedAccordions() {
               Tailored Services for Projects, Consultancy, and Engaging Lectures
             </Typography>
           </AccordionSummary>
-          <AccordionDetails>
+          <AccordionDetails
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "1rem",
+              justifyContent: "center",
+            }}
+          >
+            <img src={servicesPNG} alt="" width={100} height={100} />
             <Typography
               sx={{
                 fontSize: "1.5rem",
@@ -105,6 +122,8 @@ export default function CustomizedAccordions() {
           onChange={handleChange("panel2")}
           sx={{
             fontSize: "2rem",
+            backgroundColor: "#ff4d30",
+            borderRadius: "10px",
           }}
         >
           <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
@@ -117,7 +136,15 @@ export default function CustomizedAccordions() {
               Your Experience
             </Typography>
           </AccordionSummary>
-          <AccordionDetails>
+          <AccordionDetails
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "1rem",
+              justifyContent: "center",
+            }}
+          >
+            <img src={lecturePNG} alt="" width={100} height={100} />
             <Typography
               sx={{
                 fontSize: "1.5rem",
@@ -144,6 +171,8 @@ export default function CustomizedAccordions() {
           onChange={handleChange("panel3")}
           sx={{
             fontSize: "2rem",
+            backgroundColor: "#ff4d30",
+            borderRadius: "10px",
           }}
         >
           <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
@@ -155,7 +184,15 @@ export default function CustomizedAccordions() {
               A Commitment to Swift and Attentive Feedback Responses
             </Typography>
           </AccordionSummary>
-          <AccordionDetails>
+          <AccordionDetails
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "1rem",
+              justifyContent: "center",
+            }}
+          >
+            <img src={answerPNG} alt="" width={100} height={100} />
             <Typography
               sx={{
                 fontSize: "1.5rem",
@@ -169,6 +206,48 @@ export default function CustomizedAccordions() {
               thoughts and suggestions play a vital role in shaping our
               services, and we look forward to the opportunity to respond
               promptly and effectively.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion
+          expanded={expanded === "panel4"}
+          onChange={handleChange("panel4")}
+          sx={{
+            fontSize: "2rem",
+            backgroundColor: "#ff4d30",
+            borderRadius: "10px",
+          }}
+        >
+          <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
+            <Typography
+              sx={{
+                fontSize: "1.8rem",
+              }}
+            >
+              High-quality products for you and your loved ones.
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "1rem",
+              justifyContent: "center",
+            }}
+          >
+            <img src={qualityPNG} alt="" width={100} height={100} />
+            <Typography
+              sx={{
+                fontSize: "1.5rem",
+              }}
+            >
+              Explore our selection of premium products designed to meet your
+              needs and bring joy to your loved ones. From stylish accessories
+              to practical essentials, we offer quality items that enhance your
+              lifestyle. Discover the perfect balance of functionality and
+              aesthetics, ensuring satisfaction for you and your significant
+              others. Elevate your everyday experience with our meticulously
+              curated collection of high-quality products.
             </Typography>
           </AccordionDetails>
         </Accordion>

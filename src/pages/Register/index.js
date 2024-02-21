@@ -53,7 +53,7 @@ const Register = () => {
       </form>
       <img src={dealImg} alt="" />
       <Link to="/login">
-        <button>Login</button>
+        <h3>Already have an account?</h3>
       </Link>
     </div>
   );

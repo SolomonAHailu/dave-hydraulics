@@ -11,11 +11,11 @@ const Heros = () => {
       <div className="first-hero">
         <FirstHero />
       </div>
-      <div className="first-hero">
-        <CustomizedAccordions />
-      </div>
       <div className="second-hero">
         <SecondHero />
+      </div>
+      <div className="first-hero">
+        <CustomizedAccordions />
       </div>
       <div className="third-hero">
         <ThirdHero />

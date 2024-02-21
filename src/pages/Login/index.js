@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import "./index.scss";
 import walkImg from "../../assets/walk.png";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -41,6 +42,9 @@ const Login = () => {
         <button type="submit">Login</button>
       </form>
       <img src={walkImg} alt="" />
+      <Link to="/register">
+        <h3>Don't have and account?</h3>
+      </Link>
     </div>
   );
 };
