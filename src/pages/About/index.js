@@ -3,45 +3,35 @@ import "./index.scss";
 import AboutUsPicture from "../../assets/about-assets/about-us.png";
 import MissionPicture from "../../assets/about-assets/mission.png";
 import VisionPicture from "../../assets/about-assets/vision.png";
+import HeroBG from "../../assets/home-assets/hero-bg.png";
 
 const About = () => {
   return (
     <div className="about-container">
-      <div>
+      <img className="bg-shape" src={HeroBG} alt="bg-shape" />
+      <div className="about-content">
         <div className="each">
           <h2>About Us</h2>
           <div className="pic-and-paragraph">
             <img src={AboutUsPicture} alt="About Us" />
             <p>
-              Welcome to David Hydraulics and Hydrology, a distinguished
-              establishment founded in 2019 under the visionary leadership of
-              David A. Our remarkable journey has unfolded through various
-              transformative phases, and we proudly call Addis Ababa, Ethiopia,
-              our home—a nation distinguished as a water resource hub, boasting
-              ownership of the largest river in the world.
+              Founded in 2019 by David A., David Hydraulics and Hydrology stands
+              as a beacon of excellence in Addis Ababa, Ethiopia. In the heart
+              of this vibrant city, our journey has evolved through
+              transformative phases, making Ethiopia, with its distinction as a
+              water resource hub and ownership of the world's largest river, our
+              proud home. Specializing in comprehensive hydraulics and
+              hydrological solutions, we extend our reach globally, serving
+              clients with a commitment to innovation.
               <br />
               <br />
-              In the heart of this vibrant city, we have cultivated a culture of
-              excellence and innovation. Specializing in comprehensive
-              hydraulics and hydrological solutions, our reach extends far
-              beyond borders, serving clients on a global scale. As stewards of
-              knowledge, we passionately share our expertise through educational
-              platforms, enlightening and empowering thousands of individuals
-              around the world.
-              <br />
-              <br /> At David Hydraulics and Hydrology, our success is
-              intricately woven with the strength of our partnerships. We are
-              deeply grateful for the support of our collaborators, with whom we
-              actively engage to propel continuous advancement. Together, we
-              strive to be at the forefront of innovation in the dynamic fields
-              of hydraulics and hydrology.
-              <br />
-              <br />
-              Join us on this extraordinary journey, where expertise,
-              innovation, and a commitment to global impact converge. Discover a
-              world of possibilities as we navigate the waters of progress and
-              excellence, ensuring sustainable solutions for a water-centric
-              future.
+              Our success is woven into the fabric of strong partnerships.
+              Engaging actively with collaborators, we propel continuous
+              advancement in the dynamic fields of hydraulics and hydrology.
+              Together, we navigate the waters of progress and excellence,
+              ensuring sustainable solutions for a water-centric future. Join us
+              in this extraordinary journey, where expertise, innovation, and a
+              dedication to global impact converge.
             </p>
           </div>
         </div>
@@ -50,28 +40,20 @@ const About = () => {
           <div className="pic-and-paragraph">
             <img src={MissionPicture} alt="{About Us" />
             <p>
-              At David Hydraulics and Hydrology, our unwavering commitment
-              extends far beyond the ordinary; it is a steadfast mission to
-              position ourselves at the forefront of digital excellence, where
-              we proudly lead the charge in disseminating knowledge and
-              propelling innovation within the dynamic realms of hydraulics and
-              hydrology. Since our establishment in 2019, guided by the
-              visionary leadership of David A., we have embarked on a journey
-              marked by resolute dedication to crafting a digital landscape that
-              not only spans vast expanses but also enriches the experiences of
-              those navigating its depths.
+              At David Hydraulics and Hydrology, our commitment goes beyond the
+              ordinary, evolving into a steadfast mission to lead in digital
+              excellence within hydraulics and hydrology. Since our 2019
+              establishment under David A.'s visionary leadership, we've
+              dedicated ourselves to crafting a digital landscape that spans
+              vast expanses and enriches experiences.
               <br />
               <br />
-              Our mission transcends the mere conveyance of information; it is
-              an intricate dance with digital dynamism, a commitment to creating
-              a multifaceted experience that defies conventional boundaries. We
-              aspire to offer more than just knowledge – our aim is to provide a
-              comprehensive suite of resources, cutting-edge educational
-              content, and collaborative platforms meticulously designed to
-              empower individuals and organizations on a global scale. This
-              dedication is rooted in the understanding that in the intricate
-              realm of water science and engineering, one must navigate
-              complexities with finesse.
+              Our mission is more than conveying information; it's a dance with
+              digital dynamism, aiming to provide a comprehensive suite of
+              resources and cutting-edge educational content. We are dedicated
+              to empowering individuals and organizations globally in the
+              intricate realm of water science and engineering, recognizing the
+              need to navigate complexities with finesse.
             </p>
           </div>
         </div>
@@ -80,35 +62,24 @@ const About = () => {
           <div className="pic-and-paragraph">
             <img src={VisionPicture} alt="{About Us" />
             <p>
-              At David Hydraulics and Hydrology, our visionary pursuits
-              transcend the limits of conventional thinking, propelling us to
-              become the catalyst for a transformative paradigm in water-centric
-              endeavors. Picture a future where our platform evolves into a
-              global nexus, seamlessly bringing together expertise and
-              innovation. Our vision is rooted in establishing our platform as a
-              cornerstone for collaboration, inviting professionals,
-              researchers, and learners from every corner of the world to
-              actively engage in our dynamic online ecosystem.
+              At David Hydraulics and Hydrology, our visionary pursuits drive a
+              transformative paradigm shift in water-centric endeavors. We aim
+              to evolve into a global nexus, inviting professionals,
+              researchers, and learners worldwide to actively engage in our
+              dynamic online ecosystem. Our platform aspires to be a cornerstone
+              for collaboration, seamlessly combining expertise and innovation.
               <br />
               <br />
-              Within this virtual realm, our overarching goal is to inspire and
-              facilitate continuous advancements in water science and
-              engineering. We envision our platform as more than just a hub of
-              information; it is a vibrant community where connections are
-              forged, and the spark of creativity is ignited. Our aim is to
-              contribute significantly to the global landscape of water resource
-              management by fostering meaningful connections and catalyzing
-              innovative thinking. Through collaborative efforts and a
-              commitment to excellence, we strive to be at the forefront of
-              sustainable and responsible practices in water science and
-              engineering. By nurturing a culture of continuous learning and
-              fostering a spirit of creativity, we aspire to make enduring
-              contributions that echo across borders, making a positive impact
-              on the way the world approaches the vital challenge of water
-              resource management. In essence, at David Hydraulics and
-              Hydrology, our vision is not just to adapt to change but to
+              Within this virtual realm, our overarching goal is to inspire
+              continuous advancements in water science and engineering. More
+              than an information hub, we envision our platform as a vibrant
+              community where connections are forged, sparking creativity.
+              Through collaborative efforts and a commitment to excellence, we
+              strive to lead sustainable practices in water science and
+              engineering. At David Hydraulics and Hydrology, our vision is to
               actively shape and lead the evolution of water-centric endeavors
-              on a global scale.
+              on a global scale, making enduring contributions that echo across
+              borders.
             </p>
           </div>
         </div>

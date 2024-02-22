@@ -13,7 +13,6 @@ function Footer() {
             <ul className="footer-content__1">
               <li style={{ display: "flex", flexDirection: "column" }}>
                 <span>DAVID</span>
-                <h6>Hydraulics and Hydrology</h6>
               </li>
               <li style={{ color: "#706f7b" }}>
                 Discover our extensive collection of educational materials

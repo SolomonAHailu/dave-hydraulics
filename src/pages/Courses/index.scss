@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 8rem;
-  padding: 15rem 0;
+  padding: 15rem 0 10rem 0;
 
   img {
     width: 25%;
@@ -33,28 +33,31 @@
       display: flex;
       flex-direction: column;
 
+      h3 {
+        width: 50vw;
+      }
+
       .description-icons {
         flex: 1;
         display: flex;
         flex-direction: column;
         justify-content: space-between; 
         gap: 1rem; 
+        width: 50vw;
 
         p {
           display: flex;
           align-items: center;
-          color: $text-gray; 
+          color: $text-gray;
+          text-align: justify; 
 
           span{
-            svg {
-            font-size: 20px;
-            margin-right: 5px;
+            padding-left: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             color: $text-green;
-
-            &:hover {
-              color: $text-green;
-            }
-          }
+            font-size: 1.5rem;
         }
         svg {
           font-size: 20px;

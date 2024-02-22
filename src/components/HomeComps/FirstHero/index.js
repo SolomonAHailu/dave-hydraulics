@@ -16,7 +16,7 @@ function FirstHero() {
     <>
       <section id="home" className="hero-section">
         <div className="container">
-          <img className="bg-shape" src={HeroBG} alt="bg-shape" />
+          {/* <img className="bg-shape" src={HeroBG} alt="bg-shape" /> */}
           <div className="hero-content">
             <div className="hero-content__text">
               <h4>Unlock Your Potential</h4>

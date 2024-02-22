@@ -1,7 +1,7 @@
 @use "../../global/" as *;
 
 .our-team-container {
-    padding: 15rem 2rem;
+    padding: 20rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,8 +9,22 @@
     gap: 2rem;
     text-align: center;
     margin: 20px;
+    z-index: 2;
+
     
-    h2 {
+  .bg-shape {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+  
+    @media (max-width: 800px) {
+      display: none;
+    }
+  }
+    
+    .content{
+      h2 {
         position: relative;
         font-size: $h2-size;
         text-align: center;
@@ -49,11 +63,15 @@
   
   .team-members {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    // grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(180px, auto);
+    grid-auto-flow: dense;
     gap: 2rem;
   
     @media (max-width: 768px) {
       grid-template-columns: 1fr;
     }
   }
+}
   
