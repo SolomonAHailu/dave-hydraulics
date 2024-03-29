@@ -43,7 +43,10 @@ const Login = () => {
       </form>
       <img src={walkImg} alt="" />
       <Link to="/register">
-        <h3>Don't have and account?</h3>
+        <h3>Don't have an account?</h3>
+      </Link>
+      <Link to="/">
+        <h3>Go to home</h3>
       </Link>
     </div>
   );

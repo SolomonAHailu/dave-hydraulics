@@ -69,7 +69,6 @@ export default function CustomizedAccordions() {
       <img className="bg-shape" src={HeroBG} alt="bg-shape" />
 
       <div className="image-container">
-        {/* <img src={accordImg} alt="" /> */}
         <img src={peopleAccordPNG} alt="" />
       </div>
       <div className="accordion">

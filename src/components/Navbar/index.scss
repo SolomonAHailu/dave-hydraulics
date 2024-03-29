@@ -42,7 +42,8 @@
         &:hover {
           color: $text-blue;
           border-radius: 5px;
-          background-color: rgba(211, 211, 211, 0.2);
+          // text-decoration: underline;
+          // background-color: rgba(211, 211, 211, 0.2);
         }
         
         &.active-link {

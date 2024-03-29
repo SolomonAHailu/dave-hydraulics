@@ -55,6 +55,9 @@ const Register = () => {
       <Link to="/login">
         <h3>Already have an account?</h3>
       </Link>
+      <Link to="/">
+        <h3>Go to home</h3>
+      </Link>
     </div>
   );
 };
