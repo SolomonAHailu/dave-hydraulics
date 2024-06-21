@@ -1,9 +1,4 @@
-[![Telegram](https://img.icons8.com/color/48/000000/telegram-app.png)](https://t.me/Solomon_a_hailu) [![Instagram](https://img.icons8.com/color/48/000000/instagram-new.png)](https://www.instagram.com/solomon_a_hailu/) [![YouTube](https://img.icons8.com/color/48/000000/youtube-play.png)](https://www.youtube.com/@solomonasregdew7972) [![LinkedIn](https://img.icons8.com/color/48/000000/linkedin.png)](https://www.linkedin.com/in/solomon-asregdew-4ab2a0253/) 
-# Welcome to Dave Hydraulics and Hydrology!
-
-
-## Introduction
-Hey there! 👋 I'm **Solomon**, and I'd like to introduce you to a React project created for my friend, David. This is an educational site designed to disseminate information and lectures on the subjects of hydraulics and hydrology through a comprehensive platform. The project is built using the **React** framework, with additional components such as **SASS** for styling, **React-icons** for icons, **Material UI** components, and other essential packages. By thoroughly reading through this **README**, you'll gain the confidence needed to work on your projects. Feel free to use this project as a foundation, and don't hesitate to make modifications for further improvement.
+This is a React project created for my friend, David. This is an educational site designed to disseminate information and lectures on the subjects of hydraulics and hydrology through a comprehensive platform. The project is built using the **React** framework, with additional components such as **SASS** for styling, **React-icons** for icons, **Material UI** components, and other essential packages. By thoroughly reading through this **README**, you'll gain the confidence needed to work on your projects. Feel free to use this project as a foundation, and don't hesitate to make modifications for further improvement.
 
 ## Table of Contents
 
@@ -136,22 +131,6 @@ And finally go to [SASS](https://sass-lang.com/) to learn about SASS styles.
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-
-
-## My Final Words to anyone who sees this 
-
-
-💡
-
-Remember, every step you take toward your goals is a victory. Embrace the journey, celebrate your progress, and keep your eyes on the prize. Challenges may come your way, but they are stepping stones to success. Believe in your abilities, because you have the power to turn your dreams into reality.
-
-You're not just working; you're crafting your future. Every effort you put in today is an investment in the amazing person you're becoming. Challenges are opportunities in disguise, and each one conquered brings you closer to your aspirations.
-
-You have a unique set of skills, talents, and perspectives that the world needs. Your journey is a story waiting to inspire others. So, when things get tough, remember that you are resilient, capable, and destined for greatness.
-
-Take a deep breath, stay focused, and let the passion within you drive your actions. You've got this! 🚀
-
 
 # Connect with Me
 
